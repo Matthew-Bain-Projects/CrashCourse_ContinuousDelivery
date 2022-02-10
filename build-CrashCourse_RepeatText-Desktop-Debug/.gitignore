@@ -1,2 +1,3 @@
 *.o
 CrashCourse_RepeatText
+*.qmake*

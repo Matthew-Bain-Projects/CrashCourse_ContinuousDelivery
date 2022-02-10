@@ -16,4 +16,7 @@ jobs:
       
     - name: Compile
       run: g++ CrashCourse_RepeatText/main.cpp
+
+    - name: Run
+      run: ./a.out 
       

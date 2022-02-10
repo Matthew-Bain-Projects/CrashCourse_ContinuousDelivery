@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: cd into build directory
-    - run: cd build-CrashCourse_RepeatText-Desktop-Debug
+      run: cd build-CrashCourse_RepeatText-Desktop-Debug
       
     - name: Install dependencies
       run: make

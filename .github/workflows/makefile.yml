@@ -13,10 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: cd into build directory
-      run: cd CrashCourse_RepeatText
       
     - name: Compile
-      run: g++ main.cpp
+      run: g++ CrashCourse_RepeatText/main.cpp
       
